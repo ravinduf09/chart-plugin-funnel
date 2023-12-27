@@ -9,8 +9,8 @@
 "use strict";
 
 export default function (Chart) {
-	var helpers = Chart.helpers,
-			globalOpts = Chart.defaults.global;
+	var helpers = Chart.helpers;
+	var	globalOpts = Chart.defaults;
 
 	globalOpts.elements.trapezium = {
 		backgroundColor: globalOpts.defaultColor,

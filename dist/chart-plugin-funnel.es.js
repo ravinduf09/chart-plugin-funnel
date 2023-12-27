@@ -9118,7 +9118,7 @@ const Sh = [
 }, Symbol.toStringTag, { value: "Module" }));
 function Dh(i) {
   i.helpers;
-  var t = i.defaults.global;
+  var t = i.defaults;
   t.elements.trapezium = {
     backgroundColor: t.defaultColor,
     borderWidth: 0,
