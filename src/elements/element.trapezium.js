@@ -8,7 +8,7 @@
 
 "use strict";
 
-module.exports = function (Chart) {
+export default function (Chart) {
 	var helpers = Chart.helpers,
 			globalOpts = Chart.defaults.global;
 
