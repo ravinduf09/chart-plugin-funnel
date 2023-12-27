@@ -1,0 +1,1 @@
+(function(e){typeof define=="function"&&define.amd?define(e):e()})(function(){"use strict";var e=require("chart.js");e=typeof e=="function"?e:window.Chart,require("./elements/element.trapezium.js")(e),require("./controllers/controller.funnel.js")(e),module.exports=e});
