@@ -294,7 +294,7 @@ module.exports = function (Chart) {
 						},
 						index
 						);
-				upperWidth = previousElement ? previousElement.val * dwRatio : me.topWidth;
+						upperWidth = previousElement ? previousElement.val * dwRatio : (elementData.val * 0.7) * dwRatio;
 				bottomWidth = elementData.val * dwRatio;
 			} else if (sort === 'desc' || sort === 'data-desc') {
 				var nextElement = helpers.findNextWhere(me.valAndLabels,
@@ -304,7 +304,7 @@ module.exports = function (Chart) {
 						index
 						);
 				upperWidth = elementData.val * dwRatio;
-				bottomWidth = nextElement ? nextElement.val * dwRatio : me.topWidth;
+				bottomWidth = nextElement ? nextElement.val * dwRatio : (elementData.val * 0.7) * dwRatio;
 			}
 
 			y = chartArea.top + elementData.orgIndex * (elHeight + gap);
